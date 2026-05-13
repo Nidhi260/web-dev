@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nidhi Singh | Full Stack Developer</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body { background: #0f172a; color: #e5e7eb; line-height: 1.6; }
+    a { color: #38bdf8; text-decoration: none; }
+    header { background: linear-gradient(135deg, #1e3a8a, #0ea5e9); padding: 2.5rem 1rem; text-align: center; }
+    header h1 { font-size: 2.8rem; }
+    header p { margin-top: 0.5rem; font-size: 1.1rem; }
+
+    nav { margin-top: 1.2rem; }
+    nav a { margin: 0 0.9rem; font-weight: 500; }
+
+    section { padding: 3rem 1rem; max-width: 1100px; margin: auto; }
+    h2 { color: #38bdf8; margin-bottom: 1rem; font-size: 2rem; border-bottom: 2px solid #38bdf8; display: inline-block; padding-bottom: 0.2rem; }
+
+    .about p { max-width: 850px; }
+
+    .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin-top: 1rem; }
+    .skill-box { background: #1e293b; padding: 1rem; text-align: center; border-radius: 10px; font-size: 0.95rem; }
+
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+    .card { background: #1e293b; padding: 1.5rem; border-radius: 12px; transition: transform 0.3s, box-shadow 0.3s; }
+    .card:hover { transform: translateY(-6px); box-shadow: 0 12px 25px rgba(0,0,0,0.35); }
+    .card h3 { color: #e5e7eb; margin-bottom: 0.5rem; }
+    .card p { font-size: 0.95rem; }
+
+    .contact p { margin: 0.6rem 0; }
+
+    footer { text-align: center; padding: 1.5rem; background: #020617; margin-top: 2rem; font-size: 0.9rem; }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2.1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nidhi Singh</h1>
+    <p>Full Stack Developer | B.E CSE (2026) | React • Node.js • PHP • MySQL • MongoDB</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+     Passionate Computer Science Engineering student (Batch 2026) with strong foundations in frontend and backend development. 
+     Proficient in React, Node.js, PHP, and MySQL, with hands-on experience in building responsive and scalable web applications.
+     Currently exploring React Native for mobile development. Skilled in Git, debugging, and agile collaboration.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <div class="skill-box">HTML5, CSS3, JavaScript (ES6)</div>
+      <div class="skill-box">React (Basic), Redux (Learning)</div>
+      <div class="skill-box">Node.js, Express.js</div>
+      <div class="skill-box">PHP</div>
+      <div class="skill-box">MySQL, MongoDB</div>
+      <div class="skill-box">React Native (Exploring)</div>
+      <div class="skill-box">Git, GitHub</div>
+      <div class="skill-box">VS Code, IntelliJ, Chrome DevTools</div>
+      <div class="skill-box">DSA, OOP, DBMS, OS</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+
+      <div class="card">
+        <h3>Sweet Shop Management System (Full Stack)</h3>
+        <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB</p>
+        <p>
+          A full stack web application to manage sweets inventory, categories, pricing, and orders. Implemented CRUD operations, REST APIs, and responsive UI. Designed for real-time updates and scalable data handling.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>CoffeeShop Web App</h3>
+        <p><strong>Tech Stack:</strong> PHP, MySQL, HTML, CSS, JavaScript</p>
+        <p>
+          Developed a dynamic, responsive website with user login, order management, and real-time menu updates. Integrated MySQL backend for handling data and secure user authentication.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Expense Tracker</h3>
+        <p><strong>Tech Stack:</strong> React, Chart.js, HTML, CSS</p>
+        <p>
+          Created a responsive UI with real-time form validation and interactive chart-based analytics. Utilized local storage and React Hooks for efficient state management.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Quiz Game (Desktop GUI App)</h3>
+        <p><strong>Tech Stack:</strong> Python (Tkinter)</p>
+        <p>
+          Implemented quiz logic with randomized questions, scoring, restart functionality, and user feedback messages.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>B.E in Computer Science Engineering</strong> – Chandigarh University, Gharuan (2023–2026) | CGPA: 7.71</p>
+    <p><strong>Diploma in Computer Science Engineering</strong> – Govt. Polytechnic, Ambala City (2021–2023) | 72.3%</p>
+    <p><strong>Intermediate</strong> – Paras Public School, Karnal (2020–2021) | 95.6%</p>
+    <p><strong>Matriculation</strong> – Paras Public School, Karnal (2018–2019) | 88.8%</p>
+
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: singh1230nidhi@gmail.com</p>
+    <p>Phone: +91 8221829466</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/nidhisingh2003aug/" target="_blank">linkedin.com/in/nidhisingh2003aug</a></p>
+    <p>GitHub: <a href="https://github.com/Nidhi260" target="_blank">github.com/Nidhi260</a></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Nidhi Singh | Full Stack Developer Portfolio</p>
+  </footer>
+
+</body>
+</html>
